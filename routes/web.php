@@ -6,14 +6,24 @@ use App\Http\Controllers\web\Dashboard\DashboardController;
 
 Route::get('/',[DashboardController::class, 'dashboard']);
 
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/blog',[DashboardController::class, 'blog']);
 
 
-// Route::get('/', function () {
-//     return view('');
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Route::get('/text', function () {
+//     return view('blog');
 // });
 
 
