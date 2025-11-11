@@ -4,7 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\web\Dashboard\DashboardController;
 
 
-Route::get('/',[DashboardController::class, 'dashboard']);
+ Route::get('/',[DashboardController::class, 'dashboard'])->name('home');
+
+Route::get('/home',[DashboardController::class, 'dashboard'])->name('home');
 
 Route::get('/blog',[DashboardController::class, 'blog']);
 

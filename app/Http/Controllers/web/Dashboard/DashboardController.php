@@ -3,12 +3,15 @@
 namespace App\Http\Controllers\web\Dashboard;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
     function dashboard(){
-        return view('backend.layouts.dashboard');
+        $user = User::first();
+       
+        return view('backend.layouts.dashboard',compact('user'));
     }
 
     function blog(){
