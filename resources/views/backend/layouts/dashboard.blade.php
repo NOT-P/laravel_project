@@ -1,7 +1,7 @@
 
 @extends('backend.app')
 @section('content')
-    <!--app-content open-->
+     <!--app-content open-->
                 <div class="app-content main-content mt-0">
                     <div class="side-app">
 
@@ -12,7 +12,7 @@
                             <!-- PAGE-HEADER -->
                             <div class="page-header">
                                 <div>
-                                    <h1 class="page-title">{{ $user->name ? "Welcome" . $user->name : "Dashboard" }}</h1>
+                                    <h1 class="page-title">{{ $user->name ? "welcome ". $user->name : "dashboard" }}</h1>
                                 </div>
                                 <div class="ms-auto pageheader-btn">
                                     <ol class="breadcrumb">
@@ -126,5 +126,5 @@
                         </div>
                     </div>
                 </div>
-                    <!-- CONTAINER CLOSED -->
+                    <!-- CONTAINER CLOSED --> 
 @endsection

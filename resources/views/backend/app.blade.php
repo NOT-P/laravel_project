@@ -1,3 +1,7 @@
+@php 
+$user = App\Models\User::first();
+@endphp
+
 <!doctype html>
 <html lang="en" dir="ltr"> <!-- This "app.blade.php" master page is used for all the pages content present in "views/livewire" except "custom" and "switcher" pages -->
 	
@@ -381,8 +385,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>      
-										<!-- NOTIFICATIONS -->
+                                        </div>   
+                                        
+										 <!-- NOTIFICATIONS -->
 										<div class="dropdown d-md-flex profile-1">
 											<a href="#" data-bs-toggle="dropdown" class="nav-link pe-2 leading-none d-flex animate">
 												<span>
@@ -390,7 +395,7 @@
 														class="avatar  profile-user brround cover-image">
 												</span>
 												<div class="text-center p-1 d-flex d-lg-none-max">
-													<h6 class="mb-0" id="profile-heading">{{ $user->name ? $user->name : "No user" }}<i class="user-angle ms-1 fa fa-angle-down "></i></h6>
+													<h6 class="mb-0" id="profile-heading">{{ $user->name ? $user->name : "No User" }}<i class="user-angle ms-1 fa fa-angle-down "></i></h6>
 												</div>
 											</a>
 											<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -409,9 +414,9 @@
 													Log out
 												</a>
 											</div>
-										</div> 
+										</div>  
 
-										<!-- Profile -->
+										<!-- Profile --> 
                                     </div>
                                 </div>
                             </div>
@@ -464,7 +469,7 @@
             <!--/APP-SIDEBAR-->
 
                 @yield('content')
-             </div>
+             </div> 
 
             <!-- Country-selector modal-->
              <div class="modal fade" id="country-selector">
@@ -910,7 +915,8 @@
 					</div>
 				</div>
 			</div>
-		</div><!--TASK MODAL ENDS-->
+		</div>
+        <!--TASK MODAL ENDS-->
 
         
             <!-- FOOTER -->

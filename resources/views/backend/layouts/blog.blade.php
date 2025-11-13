@@ -39,7 +39,7 @@
 										<div class="card-footer">
 											<div class="d-sm-flex align-items-center">
 												<div class="avatar-list indicators">
-													<a href="javascript:void(0)" class="avatar avatar-md rounded-circle cover-image" data-bs-image-src= "assets/images/users/4.jpg"></a>
+													<a href="javascript:void(0)" class="avatar avatar-md rounded-circle cover-image" data-bs-image-src= "assets/images/users/4.jpg')}}"></a>
 												</div>
 												<h6 class="mb-0 text-muted ms-sm-2 mt-sm-0 mt-2">Jiggel mossin</h6>
 												<div class="d-sm-flex ms-sm-auto">
@@ -70,7 +70,7 @@
 														<div class="item-list">
 															<ul class="list-group mb-0">
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm1.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm1.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Tourism</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Explore tourism by visitinig places.</a>
@@ -78,7 +78,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm2.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm2.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Beautician</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Beautification courses are available.</a>
@@ -86,7 +86,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm3.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm3.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Music</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Music in a peaceful way </a>
@@ -94,7 +94,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm4.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm4.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Literature</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">English and spanish classes in Your way</a>
@@ -102,7 +102,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm5.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm5.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Health</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Health care and fitness awareness</a>
@@ -110,7 +110,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm2.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm2.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Health</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Health care and fitness awareness</a>
@@ -118,7 +118,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pt-0 pb-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm3.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm3.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Music</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Music in a peaceful way </a>
@@ -132,7 +132,7 @@
 														<div class="item-list">
 															<ul class="list-group mb-0">
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog1.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog1.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Tourism</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Explore tourism by visitinig places.</a>
@@ -140,7 +140,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm2.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm2.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Beautician</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Beautification courses are available.</a>
@@ -148,7 +148,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm3.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm3.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Music</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Music in a peaceful way </a>
@@ -156,7 +156,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm4.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm4.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Literature</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">English and spanish classes in Your way</a>
@@ -164,7 +164,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm5.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm5.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Health</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Health care and fitness awareness</a>
@@ -172,7 +172,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm2.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm2.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Health</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Health care and fitness awareness</a>
@@ -180,7 +180,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pt-0 pb-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm3.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm3.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Music</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Music in a peaceful way </a>
@@ -194,7 +194,7 @@
 														<div class="item-list">
 															<ul class="list-group mb-0">
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog1.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog1.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Tourism</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Explore tourism by visitinig places.</a>
@@ -202,7 +202,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm2.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm2.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Beautician</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Beautification courses are available.</a>
@@ -210,7 +210,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm3.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm3.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Music</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Music in a peaceful way </a>
@@ -218,7 +218,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm4.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm4.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Literature</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">English and spanish classes in Your way</a>
@@ -226,7 +226,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm5.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm5.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Health</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Health care and fitness awareness</a>
@@ -234,7 +234,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm2.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm2.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Health</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Health care and fitness awareness</a>
@@ -242,7 +242,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pt-0 pb-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm3.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm3.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Music</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Music in a peaceful way </a>
@@ -256,7 +256,7 @@
 														<div class="item-list">
 															<ul class="list-group mb-0">
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog1.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog1.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Tourism</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Explore tourism by visitinig places.</a>
@@ -264,7 +264,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm2.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm2.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Beautician</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Beautification courses are available.</a>
@@ -272,7 +272,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm3.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm3.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Music</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Music in a peaceful way </a>
@@ -280,7 +280,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm4.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm4.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Literature</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">English and spanish classes in Your way</a>
@@ -288,7 +288,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm5.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm5.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Health</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Health care and fitness awareness</a>
@@ -296,7 +296,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pb-4 pt-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm2.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm2.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Health</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Health care and fitness awareness</a>
@@ -304,7 +304,7 @@
 																	</div>
 																</li>
 																<li class="list-group-item d-flex pt-0 pb-0 px-0 border-bottom-0">
-																	<img src="assets/images/photos/blog-sm3.jpg" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
+																	<img src="{{asset('dashboard/assets/images/photos/blog-sm3.jpg')}}" class="avatar br-5 avatar-lg me-3 my-auto" alt="avatar-img">
 																	<div>
 																		<span class="d-block text-muted">Music</span>
 																		<a href="#" class="text-dark text-16 font-weight-semibold">Music in a peaceful way </a>
@@ -344,7 +344,7 @@
 															</div>
 															<div class="d-sm-flex p-5 align-items-center">
 																<div class="avatar-list indicators">
-																	<a href="javascript:void(0)" class="avatar avatar-md rounded-circle cover-image" data-bs-image-src= "assets/images/users/4.jpg"></a>
+																	<a href="javascript:void(0)" class="avatar avatar-md rounded-circle cover-image" data-bs-image-src= "{{asset('dashboard/assets/images/users/4.jpg')}}"></a>
 																</div>
 																<h6 class="mb-0 text-muted ms-sm-2 mt-sm-0 mt-2">Jiggel mossin</h6>
 																<div class="d-sm-flex ms-sm-auto">
@@ -358,7 +358,7 @@
 													<div class="row mb-5">
 														<div class="col-xl-4 col-md-4 col-sm-4 pe-sm-0 p-sm-max-0">
 															<a href="#">
-																<img src="assets/images/photos/blog-sug1.jpg" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
+																<img src="{{asset('dashboard/assets/images/photos/blog-sug1.jpg')}}" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
 															</a>
 														</div>
 														<div class="col-xl-8 col-md-8 col-sm-8 editorpicks-suggestions border p-2 br-sm-max-0">
@@ -374,7 +374,7 @@
 													<div class="row mb-5">
 														<div class="col-xl-4 col-md-4 col-sm-4 pe-sm-0 p-sm-max-0">
 															<a href="#">
-																<img src="assets/images/photos/blog-sug2.jpg" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
+																<img src="{{asset('dashboard/assets/images/photos/blog-sug2.jpg')}}" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
 															</a>
 														</div>
 														<div class="col-xl-8 col-md-8 col-sm-8 editorpicks-suggestions border p-2 br-sm-max-0">
@@ -390,7 +390,7 @@
 													<div class="row mb-5">
 														<div class="col-xl-4 col-md-4 col-sm-4 pe-sm-0 p-sm-max-0">
 															<a href="#">
-																<img src="assets/images/photos/blog-sug3.jpg" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
+																<img src="{{asset('dashboard/assets/images/photos/blog-sug3.jpg')}}" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
 															</a>
 														</div>
 														<div class="col-xl-8 col-md-8 col-sm-8 editorpicks-suggestions border p-2 br-sm-max-0">
@@ -406,7 +406,7 @@
 													<div class="row mb-5">
 														<div class="col-xl-4 col-md-4 col-sm-4 pe-sm-0 p-sm-max-0">
 															<a href="#">
-																<img src="assets/images/photos/blog-sug4.jpg" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
+																<img src="{{asset('dashboard/assets/images/photos/blog-sug4.jpg')}}" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
 															</a>
 														</div>
 														<div class="col-xl-8 col-md-8 col-sm-8 editorpicks-suggestions border p-2 br-sm-max-0">
@@ -422,7 +422,7 @@
 													<div class="row">
 														<div class="col-xl-4 col-md-4 col-sm-4 pe-sm-0 p-sm-max-0">
 															<a href="#">
-																<img src="assets/images/photos/blog-sug5.jpg" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
+																<img src="{{asset('dashboard/assets/images/photos/blog-sug5.jpg')}}" alt="editor-picks" class="wp-100 editorpick-suggestion-img h-100">
 															</a>
 														</div>
 														<div class="col-xl-8 col-md-8 col-sm-8 editorpicks-suggestions border p-2 br-sm-max-0">
@@ -460,7 +460,7 @@
 															</div>
 															<div class="d-sm-flex p-5 align-items-center">
 																<div class="avatar-list indicators">
-																	<a href="javascript:void(0)" class="avatar avatar-md rounded-circle cover-image" data-bs-image-src= "assets/images/users/4.jpg"></a>
+																	<a href="javascript:void(0)" class="avatar avatar-md rounded-circle cover-image" data-bs-image-src= "{{asset('dashboard/assets/images/users/4.jpg')}}"></a>
 																</div>
 																<h6 class="mb-0 text-muted ms-sm-2 mt-sm-0 mt-2">Jiggel mossin</h6>
 																<div class="d-sm-flex ms-sm-auto">
@@ -482,7 +482,7 @@
 															</div>
 															<div class="d-sm-flex p-5 align-items-center">
 																<div class="avatar-list indicators">
-																	<a href="javascript:void(0)" class="avatar avatar-md rounded-circle cover-image" data-bs-image-src= "assets/images/users/4.jpg"></a>
+																	<a href="javascript:void(0)" class="avatar avatar-md rounded-circle cover-image" data-bs-image-src= "{{asset('dashboard/assets/images/users/4.jpg')}}"></a>
 																</div>
 																<h6 class="mb-0 text-muted ms-sm-2 mt-2 mt-sm-0">Jiggel mossin</h6>
 																<div class="d-sm-flex ms-sm-auto">
@@ -530,7 +530,7 @@
 												<li class="list-group-item">
 													<a href="#" class="text-dark-light">
 														<div class="media mt-0 d-sm-flex d-block">
-															<img class="avatar-md rounded-circle me-3 my-auto" src="assets/images/faces/11.jpg" alt="Image description">
+															<img class="avatar-md rounded-circle me-3 my-auto" src="{{asset('dashboard/assets/images/faces/11.jpg')}}" alt="Image description">
 															<div class="media-body d-sm-flex d-block">
 																<div class="d-flex align-items-center">
 																	<div class="mt-1">
@@ -546,7 +546,7 @@
 												<li class="list-group-item">
 													<a href="#" class="text-dark-light">
 														<div class="media mt-0 d-sm-flex d-block">
-															<img class="avatar-md rounded-circle me-3 my-auto" src="assets/images/faces/7.jpg" alt="Image description">
+															<img class="avatar-md rounded-circle me-3 my-auto" src="{{asset('dashboard/assets/images/faces/7.jpg')}}" alt="Image description">
 															<div class="media-body d-sm-flex d-block">
 																<div class="d-flex align-items-center">
 																	<div class="mt-1">
@@ -562,7 +562,7 @@
 												<li class="list-group-item">
 													<a href="#" class="text-dark-light">
 														<div class="media mt-0 d-sm-flex d-block">
-															<img class="avatar-md rounded-circle me-3 my-auto" src="assets/images/faces/5.jpg" alt="Image description">
+															<img class="avatar-md rounded-circle me-3 my-auto" src="{{asset('dashboard/assets/images/faces/5.jpg')}}" alt="Image description">
 															<div class="media-body d-sm-flex d-block">
 																<div class="d-flex align-items-center">
 																	<div class="mt-1">
@@ -578,7 +578,7 @@
 												<li class="list-group-item">
 													<a href="#" class="text-dark-light">
 														<div class="media mt-0 d-sm-flex d-block">
-															<img class="avatar-md rounded-circle me-3 my-auto" src="assets/images/faces/8.jpg" alt="Image description">
+															<img class="avatar-md rounded-circle me-3 my-auto" src="{{asset('dashboard/assets/images/faces/8.jpg')}}" alt="Image description">
 															<div class="media-body">
 																<div class="d-flex align-items-center">
 																	<div class="mt-1">
@@ -594,7 +594,7 @@
 												<li class="list-group-item">
 													<a href="#" class="text-dark-light">
 														<div class="media mt-0 d-sm-flex d-block">
-															<img class="avatar-md rounded-circle me-3 my-auto" src="assets/images/faces/4.jpg" alt="Image description">
+															<img class="avatar-md rounded-circle me-3 my-auto" src="{{asset('dashboard/assets/images/faces/4.jpg')}}" alt="Image description">
 															<div class="media-body">
 																<div class="d-flex align-items-center">
 																	<div class="mt-1">
@@ -610,7 +610,7 @@
 												<li class="list-group-item border-bottom-0">
 													<a href="#" class="text-dark-light">
 														<div class="media mt-0 d-sm-flex d-block">
-															<img class="avatar-md rounded-circle me-3 my-auto" src="assets/images/faces/2.jpg" alt="Image description">
+															<img class="avatar-md rounded-circle me-3 my-auto" src="{{asset('dashboard/assets/images/faces/2.jpg')}}" alt="Image description">
 															<div class="media-body">
 																<div class="d-flex align-items-center">
 																	<div class="mt-1">
