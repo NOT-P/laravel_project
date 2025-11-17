@@ -1,10 +1,13 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfileController;
+use App\Models\task;
 
 Route::get('/', function () {
-    return view('welcome');
+    $tasks = Task::get();
+    
+    return view('frontend.app',compact("tasks"));
 })->name('home');
 
 
