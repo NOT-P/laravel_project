@@ -2,17 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\web\Dashboard\TaskController;
 use App\Models\task;
 
-Route::get('/', function () {
-    $tasks = Task::get();
-    
-    return view('frontend.app',compact("tasks"));
-})->name('home');
-
+Route::get('/',[TaskController::class, 'index'])->name('home');
+Route::get('/task/add',[TaskController::class, 'create'])->name('task.add');
+Route::post('/task/store',[TaskController::class, 'store'])->name('task.submit');
 
 
 Route::get('/dashboard', function () {
+    
     $user = auth()->user();
 
     return view('backend.layouts.dashboard',compact('user'));

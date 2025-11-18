@@ -73,61 +73,63 @@
     <div class="container">
         <div class="card todo-card">
             <div class="card-header bg-primary text-white" style="border-radius: 12px 12px 0 0;">
-                <h4 class="mb-0"> <a class="text-white" href="{{ route('task.add') }}"><i id="addTask" class="bi bi-plus-lg me-4" ></i></a> TO Do List</h4>
+                <h4 class="mb-0"> <i id="addTask" class="bi bi-plus-lg me-4" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></i> TO Do List</h4>
 
             </div>
             <div class="card-body">
+                @csrf
+                <form method="POST" action="{{ route('task.submit') }}" enctype="multipart/form-data">
+                    @csrf
+                               
+                                    
+                            <div class="mb-3">
+                                <label for="task_name" class="form-label">Task Name</label>
+                                <input name="task_name" type="text" class="form-control" id="task_name" >
 
-                <ul class="list-group list-group-flush">
-
-
-                    @forelse ($tasks as $task)
-                        <li id="taskItem"
-                            class="list-group-item list-group-item-optimized d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-
-                                <div class="form-check me-3">
-                                    <input class="form-check-input fs-5" type="checkbox" value="" id="todo1">
-                                </div>
-
-
-
-                                <span class="task-text" id="taskText" onclick="toggleCompletion()">
-                                    {{ $task->task_name }}
-                                </span>
+                                @error('task_name')
+                                    <p>{{ $message }}</p>
+                                @enderror
                             </div>
-
-                            <div class="d-flex align-items-center">
-                                {{-- <span class="badge bg-info text-dark rounded-pill me-3" title="Due Date">
-                                <i class="bi bi-clock me-1"></i> Tomorrow
-                            </span> --}}
-
-                                <button class="btn btn-sm text-danger" title="Delete Task">
-                                    <i class="bi bi-x-lg fs-5"></i>
-                                </button>
-                            </div>
-                        </li>
-                    @empty
-                        <p>No task found</p>
-                    @endforelse
-
-
-
-                </ul>
+                                        
+                        <button type="submit" class="btn btn-primary">Add</button>
+            </form>
+                
             </div>
-            <div class="card-footer text-muted text-center bg-white" style="border-radius: 0 0 12px 12px;">
-                <small>Click the checkbox to mark as completed.</small>
-            </div>
+            
         </div>
     </div>
 
 
      <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   {{-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            
+            <form method="POST" action="{{ route('task.submit') }}">
+                @csrf
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Add Task</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                    
+                        <div class="mb-3">
+                            <label for="task_name" class="form-label">Task Name</label>
+                            <input name="task_name" type="text" class="form-control" id="task_name" >
+                        </div>
+                        
+                    
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save </button>
+                </div>
+                </div>
+            </form>
         </div>
-    </div> 
+    </div>   --}}
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
