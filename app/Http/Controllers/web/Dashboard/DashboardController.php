@@ -18,8 +18,10 @@ class DashboardController extends Controller
     }
 
     function login(){
-        return view('backend.auth.login');
+        return view('auth.login');
     }
+
+    
     
 
     

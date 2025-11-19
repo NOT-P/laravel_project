@@ -87,8 +87,27 @@
                             <div class="d-flex align-items-center">
 
                                 <div class="form-check me-3">
-                                    <input class="form-check-input fs-5" type="checkbox" value="" id="todo1">
+                                    <form method="POST" action="{{ route('task.toggle',$task->id) }}">
+                                        @csrf
+                                        <input class="form-check-input fs-5" type="checkbox" value="" id="todo1" onchange="this.form.submit" @if ($task->status == "complete")
+                                            checked
+                                        @endif>
+
+                                    </form>
                                 </div>
+
+
+
+                                {{-- <div class="form-check me-3">
+                                    <form method="POST" action="{{ route('task.toggle', $task->id) }}">
+                                        @csrf
+                                        @method('PUT') 
+                                        <input class="form-check-input fs-5" type="checkbox" value="1" id="todo{{ $task->id }}"
+                                            onchange="this.form.submit()"
+                                            @if ($task->status == 'complete') checked @endif>
+                                    </form>
+                                </div> --}}
+
 
 
 
@@ -96,15 +115,21 @@
                                     {{ $task->task_name }}
                                 </span>
                             </div>
+                            
+                            
 
                             <div class="d-flex align-items-center">
                                 {{-- <span class="badge bg-info text-dark rounded-pill me-3" title="Due Date">
-                                <i class="bi bi-clock me-1"></i> Tomorrow
-                            </span> --}}
-
-                                <button class="btn btn-sm text-danger" title="Delete Task">
-                                    <i class="bi bi-x-lg fs-5"></i>
-                                </button>
+                                    <i class="bi bi-clock me-1"></i> Tomorrow
+                                </span> --}}
+                                
+                                <form method="POST" action="{{ route('task.delete', $task->id ) }}">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-sm text-danger" title="Delete Task">
+                                        <i class="bi bi-x-lg fs-5"></i>
+                                    </button>
+                                </form>
                             </div>
                         </li>
                     @empty

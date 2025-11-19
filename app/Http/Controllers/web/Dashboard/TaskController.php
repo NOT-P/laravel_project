@@ -21,7 +21,7 @@ class TaskController extends Controller
     function store(Request $request){
 
         $validate = $request->validate([
-            'task_name' => "required|string|max:20"
+            'task_name' => "required|string|max:200"
         ]);
 
 
@@ -35,6 +35,52 @@ class TaskController extends Controller
 
         return redirect()->route('home');
     }
+
+    function toggle($id){
+        $task = Task::find($id);
+        if(!$task){
+            abort(200,"Task not found");
+        }
+        $task->update([
+            'status' => "complete"
+        ]);
+        $task->save();
+
+        return redirect()->route('home');
+
+    }
+
+
+//     public function toggle($id){
+
+//     $task = Task::find($id);
+//     if (!$task) {
+//         abort(200, "Task not found");
+//     }
+
+    
+//     $task->status = $task->status === 'pending' ? 'complete'  : 'pending';
+//     $task->save();
+
+//     return redirect()->route('home');
+// }
+
+
+
+
+
+
+    function destroy($id ){
+        
+        $task = Task::find($id);
+        if(!$task){
+            dd("task no found");
+        }
+        $task->delete();
+        return redirect()->route('home');
+    }
+
+    
 
     
 }
